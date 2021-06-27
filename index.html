@@ -1,301 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/img/bee.svg" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- =====BOX ICONS===== -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-    <title>Hello</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- MY FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Viga&display=swap" rel="stylesheet">
+    <!-- MY CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Gio Birthday</title>
 </head>
 
 <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo"> <img src="assets/img/bee.svg" alt="" width="30" height="24"></a>
-            </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
-    </header>
-
-    <main class="l-main">
-        <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Ilham</span><br> Frontend Developer
-                </h1>
-                <a href="#" class="button">Contact</a>
-            </div>
-
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/ilham-maulana-wahyudin-9b3a72141/" target="_BLANK"
-                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/ilhamexalt" target="_BLANK" class="home__social-icon"><i
-                        class='bx bxl-github'></i></a>
-            </div>
-
-            <div class="home__img">
-                <img src="assets/img/img1.JPG" alt="">
-            </div>
-        </section>
-
-        <!--===== ABOUT =====-->
-        <section class="about section " id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/img2.png" alt="">
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">I'm Ilham Maulana Wahyudin</h2>
-                    <p class="about__text">Let's introduce myself, my name Ilham. I was born Pandeglang, 24 June 1998.
-                        I'm Live in Serang City. I am a Frontend Developer. Apart from being a frontend, I can also
-                        design and edit videos. </p>
-                </div>
-            </div>
-        </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills__container bd-grid">
-                <div>
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills__text">
-                        I am able to understand several programming languages</p>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-html5 skills__icon'></i>
-                            <span class="skills__name">HTML5</span>
-                        </div>
-                        <div class="skills__bar skills__html">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-css3 skills__icon'></i>
-                            <span class="skills__name">CSS3</span>
-                        </div>
-                        <div class="skills__bar skills__css">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">80%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-product-hunt skills__icon'></i>
-                            <span class="skills__name">PHP FRAMEWORK</span>
-                        </div>
-                        <div class="skills__bar skills__php">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">70%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-react skills__icon'></i>
-                            <span class="skills__name">ReactJS</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
-                            <span class="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
-                        </div>
-                        <div class="skills__bar skills__ux">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="assets/img/work1.svg" alt="" class="skills__img">
-                </div>
-            </div>
-        </section>
-
-        <!--===== WORK =====-->
-        <section class="work section" id="work">
-            <h2 class="section-title">Project</h2>
-            <div class="col">
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work7.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work8.png" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work9.png" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work10.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact__container bd-grid">
-                <form name="contact-me" action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input" name="nama">
-                    <input type="mail" placeholder="Email" class="contact__input" name="email">
-                    <textarea id="" cols=" 0" rows="10" class="contact__input" name="pesan"></textarea>
-                    <div class="row">
-                        <div class="col text-right">
-                            <button class="btn-kirim contact__button button" type="submit"
-                                onclick="sweetAlert()">Sent</button>
-                            <button class=" btn btn-primary contact__button btn-loading d-none" type="button">
-                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                                Loading...
-                            </button>
-                        </div>
-                    </div>
-                    <!-- <input type="submit" value="Sent" onclick="sweetAlert()" class="contact__button button"> -->
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-        <!-- mendadak wkwk -->
-        <i class='bx bxs-map bx-tada-hover'></i>
-        <p class="footer__title" style="text-align: center;">Serang, 42116</p>
-        <div class="footer__social">
-            <a target="_BLANK" href="https://www.facebook.com/bariahsex" class="footer__icon"><i
-                    class='bx bxl-facebook'></i></a>
-            <a target="_BLANK" href="https://www.instagram.com/ilhammaulanawxy/" class="footer__icon"><i
-                    class='bx bxl-instagram'></i></a>
-            <a target="_BLANK" href="https://twitter.com/Iampipaw" class="footer__icon"><i
-                    class='bx bxl-twitter'></i></a>
-            <a target="_BLANK" href="https://t.me/ilhammaulanawxy" class="footer__icon"><i
-                    class='bx bxl-telegram'></i></a>
+    <!--JUMBOTRON-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Tasyakur Khitanan dan Milad<br><span>Alzikra Arpegio Pratama</span> </h1>
+            <img src="img/gio-rounded2.png" class="rounded-circle img-thumbnail image">
+            <h1 class="display-5">Anak dari bapak Rivaldi Setiawan dan Ibu Novia Indah Lestari<br>
+                Cucu dari Bapak Djamali dan Ibu Mastati Herawati</h1>
+            <!-- <div class="icon">
+                <img src="img/info1.png" class="rounded-circle image img-thumbnail">
+                <img src="img/info1.png" class="rounded-circle image1 img-thumbnail">
+            </div> -->
         </div>
-        <a href="https://mail.google.com/mail/u/1/#inbox?compose=new" style="color: white;"> ilhamexalt33@gmail.com</a>
-        <h6>PIPAW❤️</h6>
-    </footer>
+    </div>
+    <!--AKHIR JUMBOTRON-->
 
+    <!-- CONTAINER-->
+
+    <div class="container">
+        <!-- INFO -->
+        <div class="row">
+            <div class="col-10 info">
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="img/schedule.png" alt="schedule" class="float-left">
+                        <h4>Hari</h4>
+                        <p>Minggu, 11 Juli 2021</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="img/clock.png" alt="hires" class="float-left">
+                        <h4>Pukul</h4>
+                        <p>11.00 s/d 15.00</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="img/location.png" alt="security" class="float-left">
+                        <h4>Tempat</h4>
+                        <p>Komplek Permata Safira Regency Blok E1/19 RT/RW 001/006 Kel. Sepang Kec. Taktakan
+                            Kota
+                            Serang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- AKHIR PANEL -->
+    </div>
+
+    <!--JUMBOTRON 1-------------->
+    <div class="jumbotron1 jumbotron-fluid">
+
+
+    </div>
+
+    <div class="container">
+        <div class="testimoni">
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/img2.png" class="rounded-circle img-thumbnail">
+                </div>
+                <div class="col-4">
+                    <img src="img/img1.png" class="rounded-circle img-thumbnail">
+                </div>
+                <div class="col-4">
+                    <img src="img/img3.png" class="rounded-circle img-thumbnail">
+                </div>
+            </div>
+            <div class="tombol">
+                <a href="https://www.google.co.id/maps/dir//-6.1387785,106.1351558/@-6.1387949,106.1351626,20z/data=!4m2!4m1!3e0"
+                    button class="btn btn-primary">Buka Google MAPS</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- AKHIR CONTAINER-->
 
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
-    <!-- SWEET ALERT -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
 
-    <script>
-        function sweetAlert() {
-            swal("Thank you!", "Message has been sent", "success");
-        }
-    </script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkVfWY0uSduTyklvzZ5gt24ALb447bm-brIebEKQ1y8XW9YIPvZx7PDBY3pZKSk93NVA/exec'
-        const form = document.forms['contact-me']
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            //ketika tombol submit diklik
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
-
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    //tampilkan btn loading, hilangkan tombol kirim
-                    btnLoading.classList.toggle('d-none');
-                    btnKirim.classList.toggle('d-none');
-
-                    //  myAlert.classList.toggle('d-none');
-
-                    //reset form  
-                    console.log('Success!', response);
-                    form.reset();
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
