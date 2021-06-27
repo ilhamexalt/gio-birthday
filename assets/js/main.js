@@ -14,9 +14,11 @@ const sr = ScrollReveal({
     duration: 2000,
     reset: true
 });
+sr.reveal('.display-3', {});
 sr.reveal('.display-4', {});
 sr.reveal('.display-5', {});
 sr.reveal('.image', { delay: 400 });
+sr.reveal('.prokes', { delay: 400 });
 sr.reveal('.info', { interval: 200 });
 sr.reveal('.testimoni', {});
 
