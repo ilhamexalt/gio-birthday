@@ -39,7 +39,7 @@
 
 /* JUMBOTRON */
 .jumbotron {
-    background-image: url('../img/jumbotron-bg.jpg');
+    background-image: url('../img/bg-1.png');
     background-color:black;
     background-size: cover;
     height: 650px;
@@ -73,7 +73,8 @@
 
 .jumbotron .display-3 {
     color: white;
-    font-family: 'KoHo', sans-serif;
+    /* font-family: 'KoHo', sans-serif; */
+    font-family: 'Akaya Kanadaka', cursive;
     font-weight: 150px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     font-size: 16px;
@@ -90,7 +91,7 @@
 
 /* JUMBOTRON1------------------------------------------------------ */
 .jumbotron1 {
-    background-image: url('../img/jumbotron-bg2.jpg');
+    background-image: url('../img/bg-1.png');
      background-size: cover;
     height: 1100px;
     text-align: center;
@@ -115,8 +116,8 @@
 
 .jumbotron1 .display-3 {
     color: white;
-    font-family: 'KoHo', sans-serif;
-    font-weight: 150px;
+    font-family: 'Akaya Kanadaka', cursive;
+        font-weight: 150px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     font-size: 16px;
     position: relative;
