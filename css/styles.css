@@ -49,13 +49,6 @@
      
 }
 
-.icon {
-    position: relative;
-    width: 100px;
-    top: -205px;
-    left: 20px;
-}
-
 .jumbotron .container {
     z-index: 1;
     position: relative;
@@ -91,8 +84,8 @@
 
 /* JUMBOTRON1------------------------------------------------------ */
 .jumbotron1 {
-    background-image: url('../img/bg-1.png');
-     background-size: cover;
+    background-image: url('../img/bg-2.png');
+    background-size: cover;
     height: 1100px;
     text-align: center;
     position: relative;
@@ -117,7 +110,7 @@
 .jumbotron1 .display-3 {
     color: white;
     font-family: 'Akaya Kanadaka', cursive;
-        font-weight: 150px;
+    font-weight: 150px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     font-size: 16px;
     position: relative;
@@ -125,7 +118,7 @@
 }
 .jumbotron1 .display-4 {
     color: white;
-    font-family: 'KoHo', sans-serif;
+    font-family: 'Akaya Kanadaka', cursive;
     font-weight: 150px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     font-size: 16px;
@@ -144,7 +137,7 @@
 
 /* Info */
 .info {
-    
+    font-family: 'Akaya Kanadaka', cursive;
     margin: auto;
     padding: auto;
     z-index: 1;
@@ -261,9 +254,7 @@ h5{
         position: relative;
         width: 200px;
         top: -200px;
-    }
-
-        
+    }      
 }
 
 /* _______________ */
@@ -273,6 +264,7 @@ h5{
      margin-top: -50px;
      height: 750px;
     }
+
      .info {
         margin: auto;
         padding: auto;
@@ -302,17 +294,14 @@ h5{
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
         }  
         .jumbotron1 {
-            background-image: url('../img/jumbotron-bg2.jpg');
-             background-size: cover;
+            background-image: url('../img/bg-2.png');
+            background-size: cover;
             height: 1000px;
             text-align: center;
             position: relative;
             top: -470px;
         }
-        
-        
-
-    }
+}
  
 @media (min-width: 414px) {
 
