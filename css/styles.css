@@ -42,7 +42,7 @@
     background-image: url('../img/jumbotron-bg.jpg');
     background-color:black;
     background-size: cover;
-    height: 600px;
+    height: 650px;
     margin-top: -50px;
     text-align: center;
     position: relative;
@@ -56,12 +56,6 @@
     left: 20px;
 }
 
-.icon .image1 {
-    position: relative;
-    width: 100px;
-    top: -95px;
-    left: 310px;
-}
 .jumbotron .container {
     z-index: 1;
     position: relative;
@@ -97,12 +91,11 @@
 /* JUMBOTRON1------------------------------------------------------ */
 .jumbotron1 {
     background-image: url('../img/jumbotron-bg2.jpg');
-    background-color: yellow;
-    background-size: cover;
+     background-size: cover;
     height: 1100px;
     text-align: center;
     position: relative;
-    top: -400px;
+    top: -470px;
 }
 
 .jumbotron1 .container {
@@ -150,6 +143,7 @@
 
 /* Info */
 .info {
+    
     margin: auto;
     padding: auto;
     z-index: 1;
@@ -269,4 +263,60 @@ h5{
     }
 
         
+}
+
+/* _______________ */
+@media (min-width: 375px) {
+
+    .jumbotron {
+     margin-top: -50px;
+     height: 750px;
+    }
+     .info {
+        margin: auto;
+        padding: auto;
+        z-index: 1;
+        position: relative;
+        top: -275px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        background-color: whitesmoke;
+        padding: 30px;
+     }
+        .container .testimoni {
+            position: rabsolute;
+            text-align: center;
+            margin-top: -700px;
+         }
+        .container .testimoni img {
+             width: 100px;
+             margin: auto;
+             padding: auto;
+        }
+        
+        h5{
+            font-family: 'KoHo';
+            color: whitesmoke;
+            margin-top: 10px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        }  
+        .jumbotron1 {
+            background-image: url('../img/jumbotron-bg2.jpg');
+             background-size: cover;
+            height: 1000px;
+            text-align: center;
+            position: relative;
+            top: -470px;
+        }
+        
+        
+
+    }
+ 
+@media (min-width: 414px) {
+
+    .jumbotron {
+     margin-top: -50px;
+     height: 750px;
+ }
 }
